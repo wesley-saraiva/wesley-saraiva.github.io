@@ -809,7 +809,7 @@ body > footer .copyrights {
 }
 
 .custom-page-content .page-header.color-1 {
-  background-color: #2eca7f;
+  background-color: #5B7EEB;
   background-image: url(../images/sp_main_bg.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -914,11 +914,21 @@ body > footer .copyrights {
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
 }
 
-.start-page-content .social-links a:hover {
+.start-page-content .social-links :hover {
   -webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
+
 }
+.start-page-content .social-links #git:hover {
+  color: #212121;
+
+}
+.start-page-content .social-links #link:hover {
+  color: #18a7d3;
+
+}
+
 
 .start-page-content .social-links a i {
   line-height: 36px;
@@ -1171,6 +1181,7 @@ body > footer .copyrights {
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
 }
 
+
 .service-block img {
   max-width: 100px;
   height: 64px;
@@ -1309,7 +1320,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #2eca7f;
+  border-top: 2px solid #5B7EEB;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1470,7 +1481,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #2eca7f;
+  background-color: #5B7EEB;
   color: #fff;
 }
 
@@ -1514,7 +1525,7 @@ body > footer .copyrights {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2eca7f;
+  background-color: #5B7EEB;
   opacity: 0.8;
   z-index: 0;
 }
@@ -1832,7 +1843,7 @@ body > footer .copyrights {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #5B7EEB;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -2161,7 +2172,7 @@ body > footer .copyrights {
 
 blockquote {
   margin: 20px 0;
-  border-left: 3px solid #2eca7f;
+  border-left: 3px solid #5B7EEB;
   font-style: italic;
 }
 
@@ -2297,7 +2308,7 @@ blockquote footer, blockquote small, blockquote .small {
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #2eca7f;
+    background-color: #5B7EEB;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -2332,7 +2343,7 @@ blockquote footer, blockquote small, blockquote .small {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #2eca7f;
+    background-color: #5B7EEB;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
