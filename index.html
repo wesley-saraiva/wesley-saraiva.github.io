@@ -1,733 +1,206 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="no-js">
+<!doctype html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Curriculo Online</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Curriculum vitae Wesley Saraiva />
-    <meta name="keywords" content="curriculo, vitae, geek, university, git, github" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="iconFlutter.png">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main-green.css" type="text/css">
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f14" />
+    <meta name="description" content="Portfólio internacional de Wesley Saraiva, desenvolvedor Flutter e Java Spring Boot." />
+    <title>WS Dev | Wesley Saraiva</title>
+    <link rel="icon" href="profile.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Pular para o conteúdo</a>
 
-  <body class="material-template">
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
-      </div>
-    </div>
-    <!-- /Loading animation -->
-
-    <div id="page" class="page">
-      <!-- Header -->
-      <header id="site_header" class="header mobile-menu-hide">
-        <div class="header-content">
-          <div class="site-title-block mobile-hidden">
-            <a href="index.html#home"><div class="site-title">Wesley <span>Saraiva</span></div></a>
-          </div>
-
-          <!-- Navigation -->
-          <div class="site-nav">
-            <!-- Main menu -->
-            <ul id="nav" class="site-main-menu">
-              <li>
-                <a class="pt-trigger" href="index.html#home">Início</a>
-              </li>
-              <li>
-                <!-- <a class="pt-trigger" href="index.html#resume">Currículo</a> -->
-              </li>
-              <li>
-                <a class="pt-trigger" href="index.html#services">Serviços</a>
-              </li>
-              <li>
-                <a class="pt-trigger" href="index.html#portfolio">Portfólio</a>
-              </li>
-            </ul>
-            <!-- /Main menu -->
-          </div>
-          <!-- Navigation -->
-        </div>
-      </header>
-      <!-- /Header -->
-
-      <!-- Mobile Header -->
-      <div class="mobile-header mobile-visible">
-        <div class="mobile-logo-container">
-          <div class="mobile-site-title">Wesley Saraiva</div>
-        </div>
-
-        <a class="menu-toggle mobile-visible">
-          <i class="fa fa-bars"></i>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Navegação principal" data-i18n-aria="navLabel">
+        <a class="brand" href="#home" aria-label="WS Dev — início">
+          <span class="brand-mark">WS</span>
+          <span class="brand-name">WS Dev</span>
         </a>
-      </div>
-      <!-- /Mobile Header -->
 
-      <!-- Main Content -->
-      <div id="main" class="site-main">
-        <!-- Page changer wrapper -->
-        <div class="pt-wrapper">
-          <!-- Subpages -->
-          <div class="subpages">
-
-            <!-- Home Subpage -->
-            <section class="pt-page" data-id="home">
-              <div class="section-inner start-page-content">
-                <div class="page-header">
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <div class="photo">
-                        <img src="images\eu2.jpg" alt="Wesley Saraivas">
-                      </div>
-                    </div>
-
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <div class="title-block">
-                        <h1>Wesley Saraiva</h1>
-                        <div class="owl-carousel text-rotation">                                    
-                          <div class="item">
-                            <div class="sp-subtitle">Mobile Developer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Dart | Flutter </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="social-links" >
-                        <a href="https://github.com/wesley-saraiva" target="_blank" id="git"><i class="fa fa-github"></i></a>
-                        <a  href="https://www.linkedin.com/in/wesley-marques-saraiva/" target="_blank" id="link"><i class="fa fa-linkedin"></i></a>
-                        <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="page-content">
-                  <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="about-me">
-                        <div class="block-title">
-                          <h3>Quem <span>Sou?</span></h3>
-                        </div>
-                        <p>Olá! Meu nome é Wesley Marques Saraiva. Sou formado em Sistmas de Informação e estou  procura de uma oportunidade na área de tecnologia, principalmente na área Mobile. Aqui você irá encontrar algumas outras
-                        informações sobre mim.</p>
-                      </div>
-                      <div class="download-resume">
-                        <a href="cv\Wesley Marques Saraiva - Currículo.pdf" class="btn btn-secondary" target="_blank">Download Currículo</a>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <ul class="info-list">
-                        <li><span class="title">Idade</span><span class="value">27</span></li>
-                        <li><span class="title">Nacionalidade</span><span class="value">Brasil</span></li>
-                        <li><span class="title">Cidade/Estado</span><span class="value">São Francisco, SP</span></li>
-                        <li><span class="title">E-mail</span><span class="value">wesleysaraiva109@gmail.com</span></li>
-                        <li><span class="title">Fone</span><span class="value">+55(17)981006186</span></li>
-                        <!-- <li><span class="title">Linkedin</span><span class="value available"></span><a class="pf" href="https://www.linkedin.com/in/wesley-marques-saraiva/">Wesley Saraiva</a></li> -->
-                      </ul>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- End of Home Subpage -->
-
-            <!-- Resume Subpage -->
-            <section class="pt-page" data-id="resume">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Currículo</h2>
-                </div>
-                <div class="page-content">
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Educação</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Education 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Specialization Course</h4>
-                            <span class="item-period">2010</span>
-                            <span class="item-small">Apple Inc.</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Education 1 -->
-
-                          <!-- Education 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Specialization Course</h4>
-                            <span class="item-period">2010</span>
-                            <span class="item-small">Apple Inc.</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Education 2 -->
-
-                          <!-- Education 3 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Specialization Course</h4>
-                            <span class="item-period">2010</span>
-                            <span class="item-small">Apple Inc.</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Education 3 -->
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Experiência Profissional</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Experience 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Frontend-developer</h4>
-                            <span class="item-period">Dec 2012 - Current</span>
-                            <span class="item-small">Web Agency</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Experience 1 -->
-
-                          <!-- Experience 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Web Designer</h4>
-                            <span class="item-period">Dec 2011 - Nov 2012</span>
-                            <span class="item-small">Apple Inc.</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Experience 2 -->
-
-                          <!-- Experience 3 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Graphic Designer</h4>
-                            <span class="item-period">Jan 2010 - Dec 2011</span>
-                            <span class="item-small">Apple Inc.</span>
-                            <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                          </div>
-                          <!-- / Experience 3 -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Design <span>Skills</span></h3>
-                        </div>
-
-                        <div class="skills-info">
-                          <h4>Web Design</h4>                               
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-1"></div>
-                          </div>
-
-                          <h4>Graphic Design</h4>
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-2"></div>
-                          </div>
-
-                          <h4>Print Design</h4>
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-3"></div>
-                          </div> 
-                        </div>
-
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Coding <span>Skills</span></h3>
-                        </div>
-
-                        <div class="skills-info">
-                          <h4>HTML5</h4>                               
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-4"></div>
-                          </div>
-
-                          <h4>CSS3/LESS/SASS</h4>
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-5"></div>
-                          </div>
-
-                          <h4>jQuery</h4>
-                          <div class="skill-container">
-                            <div class="skill-percentage skill-6"></div>
-                          </div> 
-                        </div>
-                        
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Download Resume Button -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="block">
-                        <div class="center download-resume">
-                          <a href="cv/Wesley Marques Saraiva - Currículo.pdf" class="btn btn-secondary" target="_blank">Download Currículo</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Download Resume Button -->
-
-                </div>
-              </div>
-            </section>
-            <!-- End of Resume Subpage -->
-
-
-            <!-- Services Subpage -->
-            <section class="pt-page" data-id="services">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Serviços Prestados</h2>
-                </div>
-                <div class="page-content">
-                  <!-- My Services -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Sou <span>bom em...</span></h3>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
-                          <div class="service-image">
-                            <img src="images/service/Dart-logo.png" alt="Dart" class="mCS_img_loaded">
-                          </div>
-                          <h4>Dart</h4>
-                          <p>É uma linguagem de programação multiparadigma e multiplataforma criada pela Google em 2011.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/icon_flutter.png" alt="Flutter" class="mCS_img_loaded">
-                          </div>
-                          <h4>Flutter</h4>
-                          <p>O Flutter é uma estrutura de código aberto desenvolvida e sustentada pelo Google. Desenvolvedores de front-end e full-stack usam o Flutter para criar a interface de usuário (UI) de uma aplicação para várias plataformas com uma única base de código.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/api_logo.png" alt="Creativity" class="mCS_img_loaded">
-                          </div>
-                          <h4>APi Rest</h4>
-                          <p>A API RESTful é uma interface que dois sistemas de computador usam para trocar informações de forma segura pela internet.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/Git-Icon.png" alt="Advetising" class="mCS_img_loaded">
-                          </div>
-                          <h4>Git</h4>
-                          <p>O Git é um sistema de controle de versão distribuído, o que significa que um clone local do projeto é um repositório de controle de versão completo.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of My Services -->
-
-                  <!-- Clients -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Clientes</h3>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_1.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_2.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_3.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_4.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_5.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="index.html#" target="_blank"><img src="images/clients/client_6.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <!-- End of Clients -->
-
-                  <!-- Testimonials -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Depoimentos de clientes</h3>
-                      </div>
-
-
-                      <div class="testimonials owl-carousel block">
-                        <!-- Testimonial 1 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/testimonial_photo_1.jpg" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Maria Richardson</p>
-                              <p class="testimonial-firm">Lindsley's Lumber</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Phasellus eu nunc tincidunt, ultricies elit vitae, pretium eros. Sed sed ipsum sed massa."</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 1 -->
-
-                        <!-- Testimonial 2 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/testimonial_photo_2.jpg" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">John Doe</p>
-                              <p class="testimonial-firm">Apple Inc.</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem.</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 2 -->
-
-                        <!-- Testimonial 3 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/testimonial_photo_3.jpg" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">George McQueen</p>
-                              <p class="testimonial-firm">Harmony House</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Aliquam congue auctor lectus sed fermentum. Nulla ultricies tellus quis sapien lacinia egestas."</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 3 -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Tesimonials -->
-                </div>
-              </div>
-            </section>
-            <!-- End of Services Subpage -->
-
-
-            <!-- Portfolio Subpage -->
-            <section class="pt-page" data-id="portfolio">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Portfólio</h2>
-                </div>
-                <div class="page-content">
-
-                  <!-- Portfolio Content -->
-                  <div class="portfolio-content">
-                                
-                    <!-- Portfolio filter -->
-                    <ul id="portfolio_filters" class="portfolio-filters">
-                      <li class="active">
-                        <a class="filter btn btn-sm btn-link active" data-group="all">Tudo</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="media">Web Design</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="illustration">SEO</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="video">Programação</a>
-                      </li>
-                    </ul>
-                    <!-- End of Portfolio filter -->
-
-                    <!-- Portfolio Grid -->
-                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-
-                      <!-- Portfolio Item 1 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/1.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 1 -->
-
-                      <!-- Portfolio Item 2 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/2.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 2 -->
-
-                      <!-- Portfolio Item 3 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/3.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 3 -->
-
-                      <!-- Portfolio Item 4 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a href="images/portfolio/full/4.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/4.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 4 -->
-
-                      <!-- Portfolio Item 5 -->
-                      <figure class="item" data-groups='["all", "illustration"]'>
-                        <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
-                          <img src="images/portfolio/5.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 5 -->
-
-                      <!-- Portfolio Item 6 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a href="images/portfolio/full/6.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/6.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 6 -->
-
-                      <!-- Portfolio Item 7 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/7.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 7 -->
-
-                      <!-- Portfolio Item 8 -->
-                      <figure class="item" data-groups='["all",  "media"]'>
-                       <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/8.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 8 -->
-
-                      <!-- Portfolio Item 9 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
-                          <img src="images/portfolio/9.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 9 -->
-
-                      <!-- Portfolio Item 10 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/10.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 10 -->
-
-                      <!-- Portfolio Item 11 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/11.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 11 -->
-
-                      <!-- Portfolio Item 12 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="images/portfolio/full/1.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/12.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 12 -->
-                    </div>
-                    <!-- /Portfolio Grid -->
-
-                  </div>
-                  <!-- /Portfolio Content -->
-                </div>
-              </div>
-            </section>
-            <!-- /Portfolio Subpage -->
-
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about" data-i18n="navAbout">Sobre</a>
+          <a href="#technologies" data-i18n="navTechnologies">Tecnologias</a>
+          <a href="#projects" data-i18n="navProjects">Projetos</a>
+          <a href="#services" data-i18n="navServices">Serviços</a>
+          <a href="#contact" data-i18n="navContact">Contato</a>
+        </div>
+
+        <div class="nav-actions">
+          <div class="language-switcher" role="group" aria-label="Selecionar idioma" data-i18n-aria="languageLabel">
+            <button class="language-option" type="button" data-lang="en" aria-pressed="false">EN</button>
+            <button class="language-option is-active" type="button" data-lang="pt" aria-pressed="true">PT</button>
+          </div>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu" data-i18n-aria="menuLabel">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroGreeting">OLÁ, EU SOU WESLEY</p>
+          <h1 id="hero-title">
+            <span data-i18n="heroLineOne">Desenvolvedor</span>
+            <span class="accent-text" data-i18n="heroLineTwo">Flutter & Java</span>
+          </h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            Desenvolvo aplicativos, APIs e sistemas sob medida, transformando necessidades reais em soluções digitais.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"><span data-i18n="heroProjects">Ver meus projetos</span><span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#contact"><span data-i18n="heroServices">Contratar meus serviços</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="technology-pills" aria-label="Tecnologias principais" data-i18n-aria="mainTechLabel">
+            <span>Flutter</span><span>Dart</span><span>Java</span><span>Spring Boot</span><span>MySQL</span>
           </div>
         </div>
-        <!-- /Page changer wrapper -->
-      </div>
-      <!-- /Main Content -->
-    </div>
-    <footer>
-      <div class="copyrights">&copy; Wesley Saraiva</div>
+
+        <div class="profile-stage" aria-label="Foto de Wesley Saraiva" data-i18n-aria="profileLabel">
+          <div class="profile-glow"></div>
+          <div class="profile-ring ring-one"></div>
+          <div class="profile-ring ring-two"></div>
+          <div class="profile-image-wrap">
+            <img src="profile.jpg" alt="Wesley Saraiva" />
+          </div>
+          <span class="floating-chip chip-flutter">Flutter</span>
+          <span class="floating-chip chip-java">Java API</span>
+          <span class="floating-chip chip-clean">Clean Code</span>
+        </div>
+      </section>
+
+      <section class="expertise-section" id="about" aria-labelledby="about-title">
+        <div class="shell">
+          <div class="about-grid">
+            <div class="section-copy">
+              <p class="eyebrow" data-i18n="aboutLabel">SOBRE MIM</p>
+              <h2 id="about-title" data-i18n="aboutTitle">Transformando ideias em software.</h2>
+              <p class="lead" data-i18n="aboutLead">Sou Wesley Saraiva, desenvolvedor com formação em Sistemas de Informação e foco no desenvolvimento de aplicativos e sistemas.</p>
+              <p data-i18n="aboutDescription">Meu principal foco é Flutter para aplicações e Java com Spring Boot para APIs e soluções backend, seguindo boas práticas de engenharia de software e arquitetura bem definida.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-item"><span class="info-icon">ED</span><div><small data-i18n="aboutEducation">Formação</small><strong data-i18n="aboutDegree">Sistemas de Informação</strong></div></div>
+              <div class="info-item"><span class="info-icon">&lt;/&gt;</span><div><small data-i18n="aboutSpecialty">Especialidade</small><strong>Flutter & Java Backend</strong></div></div>
+              <div class="info-item"><span class="info-icon">API</span><div><small>Backend</small><strong>Java + Spring Boot</strong></div></div>
+              <div class="info-item"><span class="info-icon">DB</span><div><small data-i18n="aboutDatabase">Banco de dados</small><strong>MySQL</strong></div></div>
+            </div>
+          </div>
+
+          <div class="subsection" id="technologies">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow" data-i18n="technologiesLabel">TECNOLOGIAS</p>
+                <h2 data-i18n="technologiesTitle">Ferramentas que utilizo</h2>
+              </div>
+              <p data-i18n="technologiesIntro">Uma stack moderna para criar produtos multiplataforma, APIs organizadas e dados confiáveis.</p>
+            </div>
+            <div class="technology-grid">
+              <article class="technology-card"><span class="tech-icon flutter">F</span><div><h3>Flutter</h3><p data-i18n="flutterDescription">Aplicações multiplataforma</p></div></article>
+              <article class="technology-card"><span class="tech-icon dart">D</span><div><h3>Dart</h3><p data-i18n="dartDescription">Linguagem para Flutter</p></div></article>
+              <article class="technology-card"><span class="tech-icon java">J</span><div><h3>Java</h3><p data-i18n="javaDescription">Desenvolvimento backend</p></div></article>
+              <article class="technology-card"><span class="tech-icon spring">S</span><div><h3>Spring Boot</h3><p data-i18n="springDescription">APIs e aplicações backend</p></div></article>
+              <article class="technology-card"><span class="tech-icon mysql">DB</span><div><h3>MySQL</h3><p data-i18n="mysqlDescription">Banco de dados relacional</p></div></article>
+              <article class="technology-card"><span class="tech-icon git">G</span><div><h3>Git</h3><p data-i18n="gitDescription">Versionamento de código</p></div></article>
+            </div>
+          </div>
+
+          <div class="subsection" id="services">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow" data-i18n="servicesLabel">SERVIÇOS</p>
+                <h2 data-i18n="servicesTitle">Como posso ajudar</h2>
+              </div>
+              <p data-i18n="servicesDescription">Desenvolvo soluções modernas para empresas e projetos específicos, com foco em qualidade, organização e manutenção.</p>
+            </div>
+            <div class="services-grid">
+              <article class="service-card">
+                <span class="service-icon">APP</span>
+                <h3 data-i18n="serviceAppsTitle">Desenvolvimento de Aplicativos</h3>
+                <p data-i18n="serviceAppsText">Aplicativos modernos e responsivos com Flutter para diferentes plataformas.</p>
+                <div class="tag-row"><span>Flutter</span><span>Dart</span></div>
+              </article>
+              <article class="service-card">
+                <span class="service-icon">API</span>
+                <h3 data-i18n="serviceBackendTitle">Backend & APIs</h3>
+                <p data-i18n="serviceBackendText">APIs REST e serviços backend com Java e Spring Boot integrados a bancos de dados.</p>
+                <div class="tag-row"><span>Java</span><span>Spring Boot</span><span>REST API</span></div>
+              </article>
+              <article class="service-card">
+                <span class="service-icon">SYS</span>
+                <h3 data-i18n="serviceCustomTitle">Sistemas Personalizados</h3>
+                <p data-i18n="serviceCustomText">Soluções sob medida para transformar processos e necessidades reais em sistemas digitais.</p>
+                <div class="tag-row"><span>Flutter</span><span>Java</span><span>MySQL</span></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="section-heading projects-heading">
+            <div>
+              <p class="eyebrow" data-i18n="projectsLabel">PROJETOS</p>
+              <h2 id="projects-title" data-i18n="projectsTitle">Projetos que estou desenvolvendo</h2>
+            </div>
+            <p data-i18n="projectsIntro">Projetos criados para resolver problemas reais com tecnologias modernas de aplicações e backend.</p>
+          </div>
+
+          <article class="featured-project">
+            <div class="project-visual">
+              <div class="project-status" data-i18n="projectStatus">EM DESENVOLVIMENTO</div>
+              <div class="device-shell">
+                <div class="device-header"><strong>RAL</strong><span></span></div>
+                <p data-i18n="residentGreeting">Olá, morador</p>
+                <div class="resident-pass">
+                  <small data-i18n="accessGranted">ACESSO LIBERADO</small>
+                  <strong>Residencial<br />Andaralua</strong>
+                  <span class="qr-shape"></span>
+                </div>
+                <div class="device-actions"><span></span><span></span><span></span></div>
+              </div>
+              <span class="ral-watermark">RAL</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">FULL-STACK CASE STUDY</p>
+              <h3>RAL — Residencial Andaralua</h3>
+              <p data-i18n="projectDescription">Sistema de gestão e controle de acesso para organizar moradores, visitantes, veículos, registros de entrada, reservas, encomendas, ocorrências, contribuições e notificações.</p>
+              <div class="tag-row project-tags"><span>Flutter</span><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+              <button class="details-button" type="button" aria-expanded="false" aria-controls="project-details"><span data-i18n="projectDetailsButton">Explorar funcionalidades</span><span aria-hidden="true">＋</span></button>
+              <div class="project-details" id="project-details" hidden>
+                <ul>
+                  <li data-i18n="featureOne">Documento digital e validação do morador</li>
+                  <li data-i18n="featureTwo">Autorização e agendamento de visitantes</li>
+                  <li data-i18n="featureThree">Controle de acesso, placas e horários</li>
+                  <li data-i18n="featureFour">Contribuições, reservas e notificações</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <aside class="contact-card" id="contact" aria-labelledby="contact-title">
+            <div>
+              <p class="eyebrow" data-i18n="contactLabel">VAMOS CONVERSAR</p>
+              <h2 id="contact-title" data-i18n="contactTitle">Pronto para criar algo útil?</h2>
+              <p data-i18n="contactText">Estou aberto a oportunidades júnior, colaborações e projetos Flutter ou Java.</p>
+            </div>
+            <div class="contact-actions">
+              <a class="button button-light" href="https://www.linkedin.com/in/wesley-marques-saraiva/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline-light" href="https://github.com/wesley-saraiva" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <span>© <span id="year"></span> Wesley Saraiva</span>
+      <span data-i18n="footerText">Desenvolvido no Brasil para o mundo.</span>
     </footer>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/pages-switcher.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/validator.js"></script>
-    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
